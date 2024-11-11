@@ -16,7 +16,7 @@ public class HengerProgram {
         for (MertaniHenger henger : this.lista()){
             System.out.println(henger);
         }
-        System.out.println("Hengerek átlagtérfogata" + this.atlagTerfogat());
+        System.out.println("Hengerek átlagtérfogata: " + this.atlagTerfogat());
         System.out.println("Csöves súlya: " + this.csovekSulya());
     }
 
