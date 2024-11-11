@@ -20,7 +20,7 @@ public class LyukasHenger extends TomorHenger {
     @Override
     public String toString() {
         String os = super.toString();
-        return os + "<!--LyukasHenger{" +
+        return os + "< !--LyukasHenger{" +
                 "falvastagsag=" + falvastagsag +
                 '}';
     }

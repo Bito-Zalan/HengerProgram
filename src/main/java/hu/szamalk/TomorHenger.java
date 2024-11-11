@@ -21,7 +21,7 @@ public class TomorHenger extends MertaniHenger {
     @Override
     public String toString() {
         String os = super.toString();
-        return os + "<!--TomorHenger{" +
+        return os + "< !--TomorHenger{" +
                 "fajsuly=" + fajsuly +
                 '}';
     }
