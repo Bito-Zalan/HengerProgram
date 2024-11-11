@@ -1,7 +1,7 @@
-package modell;
+package hu.szamalk;
 
 
-public class LyukasHenger extends TomorHenger{
+public class LyukasHenger extends TomorHenger {
     private double falvastagsag;
 
     public LyukasHenger(double sugar, double magassag, double falvastagsag){
@@ -19,7 +19,8 @@ public class LyukasHenger extends TomorHenger{
 
     @Override
     public String toString() {
-        return "LyukasHenger{" +
+        String os = super.toString();
+        return os + "<!--LyukasHenger{" +
                 "falvastagsag=" + falvastagsag +
                 '}';
     }

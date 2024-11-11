@@ -1,6 +1,6 @@
-package modell;
+package hu.szamalk;
 
-public class TomorHenger extends MertaniHenger{
+public class TomorHenger extends MertaniHenger {
     private double fajsuly;
 
     public TomorHenger(double sugar, double magassag) {
@@ -20,7 +20,8 @@ public class TomorHenger extends MertaniHenger{
 
     @Override
     public String toString() {
-        return "TomorHenger{" +
+        String os = super.toString();
+        return os + "<!--TomorHenger{" +
                 "fajsuly=" + fajsuly +
                 '}';
     }
