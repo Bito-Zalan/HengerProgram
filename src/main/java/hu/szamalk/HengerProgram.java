@@ -37,7 +37,14 @@ public class HengerProgram {
     }
 
     public double csovekSulya(){
-        return 0.0;
+        double ossz = 0;
+        for (MertaniHenger henger : hengerek){
+            if(henger instanceof LyukasHenger) {
+                ossz += ((LyukasHenger) henger).suly();
+            }
+        }
+        return ossz;
+
     }
     private List<MertaniHenger> lista(){
         return hengerek;
