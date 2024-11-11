@@ -19,7 +19,7 @@ public class TomorHenger extends MertaniHenger {
     }
 
     public double suly(){
-        return terfogat() * fajsuly;
+        return this.terfogat() * fajsuly;
     }
 
     @Override
